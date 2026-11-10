@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Instagramer | Rendimiento de afiliación</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="min-h-screen bg-white text-slate-950">
+    <header class="border-b border-slate-200">
+      <div class="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-4 sm:flex-row sm:items-center sm:justify-between">
+        <a class="font-semibold" href="#inicio">Instagramer</a>
+        <nav aria-label="Secciones del dashboard">
+          <ul class="flex flex-wrap gap-4">
+            <li><a class="underline-offset-4 hover:underline focus-visible:underline" href="#resumen">Resumen</a></li>
+            <li><a class="underline-offset-4 hover:underline focus-visible:underline" href="#drivers">Drivers</a></li>
+            <li><a class="underline-offset-4 hover:underline focus-visible:underline" href="#operaciones">Operaciones</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="inicio" class="mx-auto max-w-7xl space-y-8 px-4 py-6">
+      <h1 class="text-2xl font-semibold">Rendimiento de afiliación</h1>
+
+      <section id="resumen" aria-labelledby="resumen-title">
+        <h2 id="resumen-title" class="text-xl font-semibold">Indicadores principales</h2>
+        <p id="kpi-context" class="mt-2 text-sm text-slate-600">Periodo: 2026–actualidad. Valores ilustrativos de demostración.</p>
+        <div class="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-4">
+          <article aria-labelledby="kpi-comisiones" class="rounded-md border border-slate-200 p-4">
+            <h3 id="kpi-comisiones" class="text-sm font-medium text-slate-600">Comisiones generadas</h3>
+            <p class="mt-2 text-2xl font-semibold">1.530 €</p>
+            <p class="mt-2 text-sm text-slate-600">Comisión de la influencer; suma confirmada por plataforma.</p>
+          </article>
+          <article aria-labelledby="kpi-unidades" class="rounded-md border border-slate-200 p-4">
+            <h3 id="kpi-unidades" class="text-sm font-medium text-slate-600">Unidades vendidas</h3>
+            <p class="mt-2 text-2xl font-semibold">150 unidades</p>
+            <p class="mt-2 text-sm text-slate-600">Unidades, no ingresos monetarios.</p>
+          </article>
+          <article aria-labelledby="kpi-conversion" class="rounded-md border border-slate-200 p-4">
+            <h3 id="kpi-conversion" class="text-sm font-medium text-slate-600">Tasa de conversión</h3>
+            <p class="mt-2 text-2xl font-semibold">2,8 %</p>
+            <p class="mt-2 text-sm text-slate-600">Resultado demo precomputado: compras completadas desde enlace / clics.</p>
+          </article>
+          <article aria-labelledby="kpi-engagement" class="rounded-md border border-slate-200 p-4">
+            <h3 id="kpi-engagement" class="text-sm font-medium text-slate-600">Engagement rate</h3>
+            <p class="mt-2 text-2xl font-semibold">6,7 %</p>
+            <p class="mt-2 text-sm text-slate-600">Resultado demo precomputado: interacciones aprobadas / alcance.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="drivers" aria-labelledby="drivers-title" class="space-y-4">
+        <h2 id="drivers-title" class="text-xl font-semibold">Drivers</h2>
+        <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+          <section aria-labelledby="plataformas-title" class="space-y-4">
+            <h3 id="plataformas-title" class="text-lg font-medium">Rendimiento por plataforma</h3>
+          <p class="text-sm text-slate-600">Datos ficticios de 2026–actualidad, presentados como resultados demo estáticos. El alcance 55.000 es una suma, no una audiencia única.</p>
+          <p class="text-sm text-slate-600">Barras comparativas de comisiones con escala visual fija de 0 a 720 €.</p>
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+            <article aria-labelledby="plataforma-instagram" class="rounded-md border border-slate-200 p-4">
+              <h4 id="plataforma-instagram" class="font-semibold">Instagram</h4>
+              <dl class="mt-3 grid grid-cols-2 gap-3 text-sm">
+                <div><dt class="text-slate-600">Alcance</dt><dd class="font-medium">25.000</dd></div>
+                <div><dt class="text-slate-600">Unidades vendidas</dt><dd class="font-medium">45</dd></div>
+                <div><dt class="text-slate-600">Comisiones</dt><dd class="font-medium">405 €</dd></div>
+                <div><dt class="text-slate-600">Participación demo</dt><dd class="font-medium">26,5 %</dd></div>
+              </dl>
+              <progress class="mt-4 h-2 w-full accent-cyan-700" value="405" max="720" aria-label="Barra comparativa de comisiones de Instagram: 405 euros, escala de 0 a 720 euros">405 de 720 euros</progress>
+            </article>
+            <article aria-labelledby="plataforma-tiktok" class="rounded-md border border-slate-200 p-4">
+              <h4 id="plataforma-tiktok" class="font-semibold">TikTok</h4>
+              <dl class="mt-3 grid grid-cols-2 gap-3 text-sm">
+                <div><dt class="text-slate-600">Alcance</dt><dd class="font-medium">18.000</dd></div>
+                <div><dt class="text-slate-600">Unidades vendidas</dt><dd class="font-medium">60</dd></div>
+                <div><dt class="text-slate-600">Comisiones</dt><dd class="font-medium">720 €</dd></div>
+                <div><dt class="text-slate-600">Participación demo</dt><dd class="font-medium">47,1 %</dd></div>
+              </dl>
+              <progress class="mt-4 h-2 w-full accent-cyan-700" value="720" max="720" aria-label="Barra comparativa de comisiones de TikTok: 720 euros, escala de 0 a 720 euros">720 de 720 euros</progress>
+            </article>
+            <article aria-labelledby="plataforma-youtube" class="rounded-md border border-slate-200 p-4">
+              <h4 id="plataforma-youtube" class="font-semibold">YouTube</h4>
+              <dl class="mt-3 grid grid-cols-2 gap-3 text-sm">
+                <div><dt class="text-slate-600">Alcance</dt><dd class="font-medium">12.000</dd></div>
+                <div><dt class="text-slate-600">Unidades vendidas</dt><dd class="font-medium">45</dd></div>
+                <div><dt class="text-slate-600">Comisiones</dt><dd class="font-medium">405 €</dd></div>
+                <div><dt class="text-slate-600">Participación demo</dt><dd class="font-medium">26,5 %</dd></div>
+              </dl>
+              <progress class="mt-4 h-2 w-full accent-cyan-700" value="405" max="720" aria-label="Barra comparativa de comisiones de YouTube: 405 euros, escala de 0 a 720 euros">405 de 720 euros</progress>
+            </article>
+          </div>
+          </section>
+          <section aria-labelledby="productos-title" class="space-y-4">
+            <h3 id="productos-title" class="text-lg font-medium">Rendimiento por producto</h3>
+          <p class="text-sm text-slate-600">Ejemplo independiente de los KPI y los datos por plataforma. Los ingresos son ventas brutas; la comisión es la ganancia de la influencer.</p>
+          <div class="overflow-x-auto">
+            <table class="min-w-[38rem] text-left text-sm">
+              <caption class="sr-only">Rendimiento ilustrativo por producto</caption>
+              <thead>
+                <tr class="border-b border-slate-300">
+                  <th class="px-3 py-2 font-semibold" scope="col">Producto</th>
+                  <th class="px-3 py-2 font-semibold" scope="col">Precio unitario</th>
+                  <th class="px-3 py-2 font-semibold" scope="col">Unidades</th>
+                  <th class="px-3 py-2 font-semibold" scope="col">Ingresos por ventas</th>
+                  <th class="px-3 py-2 font-semibold" scope="col">Comisión influencer</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-slate-200">
+                  <th class="px-3 py-2 font-medium" scope="row">Producto A</th>
+                  <td class="px-3 py-2">50 €</td>
+                  <td class="px-3 py-2">50</td>
+                  <td class="px-3 py-2">2.500 €</td>
+                  <td class="px-3 py-2">375 €</td>
+                </tr>
+                <tr class="border-b border-slate-200">
+                  <th class="px-3 py-2 font-medium" scope="row">Producto B</th>
+                  <td class="px-3 py-2">120 €</td>
+                  <td class="px-3 py-2">40</td>
+                  <td class="px-3 py-2">4.800 €</td>
+                  <td class="px-3 py-2">720 €</td>
+                </tr>
+                <tr class="border-b border-slate-200">
+                  <th class="px-3 py-2 font-medium" scope="row">Producto C</th>
+                  <td class="px-3 py-2">80 €</td>
+                  <td class="px-3 py-2">60</td>
+                  <td class="px-3 py-2">4.800 €</td>
+                  <td class="px-3 py-2">720 €</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr class="border-t border-slate-300 font-semibold">
+                  <th class="px-3 py-2" scope="row">Total ilustrativo</th>
+                  <td class="px-3 py-2">—</td>
+                  <td class="px-3 py-2">150</td>
+                  <td class="px-3 py-2">12.100 €</td>
+                  <td class="px-3 py-2">1.815 €</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <p class="text-sm text-slate-600">El total de comisiones de producto, 1.815 €, no se reconcilia con los 1.530 € del KPI ni con el ejemplo por plataforma.</p>
+          <section aria-labelledby="top-products-title" class="mt-6 space-y-3">
+            <h4 id="top-products-title" class="font-semibold">Top Affiliate Products</h4>
+            <p class="text-sm text-slate-600">Ranking demo estático por Revenue y Conversion Rate. Plataforma y categoría son metadatos ficticios, no atribución de ventas.</p>
+            <div class="overflow-x-auto">
+              <table class="min-w-[58rem] text-left text-sm">
+                <caption class="sr-only">Top Affiliate Products por Revenue y Conversion Rate</caption>
+                <thead>
+                  <tr class="border-b border-slate-300">
+                    <th class="px-3 py-2 font-semibold" scope="col">Posición</th>
+                    <th class="px-3 py-2 font-semibold" scope="col">Producto</th>
+                    <th class="px-3 py-2 font-semibold" scope="col">Plataforma</th>
+                    <th class="px-3 py-2 font-semibold" scope="col">Categoría</th>
+                    <th class="px-3 py-2 font-semibold" scope="col">Clics demo</th>
+                    <th class="px-3 py-2 font-semibold" scope="col">Compras demo</th>
+                    <th class="px-3 py-2 font-semibold" scope="col">Revenue</th>
+                    <th class="px-3 py-2 font-semibold" scope="col">Conversion Rate</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-b border-slate-200">
+                    <td class="px-3 py-2">1</td>
+                    <th class="px-3 py-2 font-medium" scope="row">Producto C</th>
+                    <td class="px-3 py-2">YouTube</td>
+                    <td class="px-3 py-2">Hogar</td>
+                    <td class="px-3 py-2">900</td>
+                    <td class="px-3 py-2">45</td>
+                    <td class="px-3 py-2">4.800 €</td>
+                    <td class="px-3 py-2">5,0 %</td>
+                  </tr>
+                  <tr class="border-b border-slate-200">
+                    <td class="px-3 py-2">2</td>
+                    <th class="px-3 py-2 font-medium" scope="row">Producto B</th>
+                    <td class="px-3 py-2">TikTok</td>
+                    <td class="px-3 py-2">Tecnología</td>
+                    <td class="px-3 py-2">1.000</td>
+                    <td class="px-3 py-2">30</td>
+                    <td class="px-3 py-2">4.800 €</td>
+                    <td class="px-3 py-2">3,0 %</td>
+                  </tr>
+                  <tr class="border-b border-slate-200">
+                    <td class="px-3 py-2">3</td>
+                    <th class="px-3 py-2 font-medium" scope="row">Producto A</th>
+                    <td class="px-3 py-2">Instagram</td>
+                    <td class="px-3 py-2">Belleza</td>
+                    <td class="px-3 py-2">300</td>
+                    <td class="px-3 py-2">15</td>
+                    <td class="px-3 py-2">2.500 €</td>
+                    <td class="px-3 py-2">5,0 %</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          </section>
+        </div>
+      </section>
+
+      <section id="operaciones" aria-labelledby="operaciones-title" class="space-y-4">
+        <h2 id="operaciones-title" class="text-xl font-semibold">Detalles operacionales</h2>
+        <section aria-labelledby="campanas-title" class="space-y-4">
+          <h3 id="campanas-title" class="text-lg font-medium">Rendimiento de campañas</h3>
+          <p class="text-sm text-slate-600">Filas ilustrativas. No se confirma si son todas las campañas y no se proporcionaron fechas. Conversiones y unidades vendidas se muestran por separado y no se asumen equivalentes.</p>
+          <div class="overflow-x-auto">
+            <table class="min-w-[48rem] text-left text-sm">
+              <caption class="sr-only">Rendimiento ilustrativo por campaña</caption>
+              <thead>
+                <tr class="border-b border-slate-300">
+                  <th class="px-3 py-2 font-semibold" scope="col">Campaña</th>
+                  <th class="px-3 py-2 font-semibold" scope="col">Plataforma</th>
+                  <th class="px-3 py-2 font-semibold" scope="col">Producto</th>
+                  <th class="px-3 py-2 font-semibold" scope="col">Alcance</th>
+                  <th class="px-3 py-2 font-semibold" scope="col">Conversiones</th>
+                  <th class="px-3 py-2 font-semibold" scope="col">Comisiones</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-slate-200">
+                  <th class="px-3 py-2 font-medium" scope="row">Campaña 1</th>
+                  <td class="px-3 py-2">Instagram</td>
+                  <td class="px-3 py-2">A</td>
+                  <td class="px-3 py-2">10.000</td>
+                  <td class="px-3 py-2">20</td>
+                  <td class="px-3 py-2">150 €</td>
+                </tr>
+                <tr class="border-b border-slate-200">
+                  <th class="px-3 py-2 font-medium" scope="row">Campaña 2</th>
+                  <td class="px-3 py-2">TikTok</td>
+                  <td class="px-3 py-2">B</td>
+                  <td class="px-3 py-2">8.000</td>
+                  <td class="px-3 py-2">25</td>
+                  <td class="px-3 py-2">450 €</td>
+                </tr>
+                <tr class="border-b border-slate-200">
+                  <th class="px-3 py-2 font-medium" scope="row">Campaña 3</th>
+                  <td class="px-3 py-2">YouTube</td>
+                  <td class="px-3 py-2">C</td>
+                  <td class="px-3 py-2">6.000</td>
+                  <td class="px-3 py-2">15</td>
+                  <td class="px-3 py-2">180 €</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <section aria-labelledby="comparativa-title" class="space-y-4">
+          <h3 id="comparativa-title" class="text-lg font-medium">Comparativa por plataforma</h3>
+          <p class="text-sm text-slate-600">Resultados demo estáticos: 12 oct–10 nov 2026 frente a 12 sep–11 oct 2026, dos periodos contiguos de 30 días. Variaciones por métrica, con signo y texto.</p>
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+            <article aria-labelledby="comparativa-instagram" class="rounded-md border border-slate-200 p-4">
+              <h4 id="comparativa-instagram" class="font-semibold">Instagram</h4>
+              <dl class="mt-3 space-y-2 text-sm">
+                <div><dt class="text-slate-600">Alcance (actual / anterior)</dt><dd class="font-medium">25.000 / 21.000; variación +19,0 %</dd></div>
+                <div><dt class="text-slate-600">Unidades (actual / anterior)</dt><dd class="font-medium">45 / 39; variación +15,4 %</dd></div>
+                <div><dt class="text-slate-600">Comisiones (actual / anterior)</dt><dd class="font-medium">405 € / 351 €; variación +15,4 %</dd></div>
+                <div><dt class="text-slate-600">Clics (actual / anterior)</dt><dd class="font-medium">1.200 / 1.000; variación +20,0 %</dd></div>
+                <div><dt class="text-slate-600">Conversion Rate (actual / anterior)</dt><dd class="font-medium">2,5 % / 2,4 %; variación +4,2 %</dd></div>
+                <div><dt class="text-slate-600">Engagement Rate (actual / anterior)</dt><dd class="font-medium">6,5 % / 6,5 %; variación 0,0 %</dd></div>
+              </dl>
+            </article>
+            <article aria-labelledby="comparativa-tiktok" class="rounded-md border border-slate-200 p-4">
+              <h4 id="comparativa-tiktok" class="font-semibold">TikTok</h4>
+              <dl class="mt-3 space-y-2 text-sm">
+                <div><dt class="text-slate-600">Alcance (actual / anterior)</dt><dd class="font-medium">18.000 / 15.000; variación +20,0 %</dd></div>
+                <div><dt class="text-slate-600">Unidades (actual / anterior)</dt><dd class="font-medium">60 / 53; variación +13,2 %</dd></div>
+                <div><dt class="text-slate-600">Comisiones (actual / anterior)</dt><dd class="font-medium">720 € / 636 €; variación +13,2 %</dd></div>
+                <div><dt class="text-slate-600">Clics (actual / anterior)</dt><dd class="font-medium">1.800 / 1.500; variación +20,0 %</dd></div>
+                <div><dt class="text-slate-600">Conversion Rate (actual / anterior)</dt><dd class="font-medium">3,4 % / 3,2 %; variación +5,9 %</dd></div>
+                <div><dt class="text-slate-600">Engagement Rate (actual / anterior)</dt><dd class="font-medium">8,2 % / 8,0 %; variación +2,5 %</dd></div>
+              </dl>
+            </article>
+            <article aria-labelledby="comparativa-youtube" class="rounded-md border border-slate-200 p-4">
+              <h4 id="comparativa-youtube" class="font-semibold">YouTube</h4>
+              <dl class="mt-3 space-y-2 text-sm">
+                <div><dt class="text-slate-600">Alcance (actual / anterior)</dt><dd class="font-medium">12.000 / 11.000; variación +9,1 %</dd></div>
+                <div><dt class="text-slate-600">Unidades (actual / anterior)</dt><dd class="font-medium">45 / 40; variación +12,5 %</dd></div>
+                <div><dt class="text-slate-600">Comisiones (actual / anterior)</dt><dd class="font-medium">405 € / 360 €; variación +12,5 %</dd></div>
+                <div><dt class="text-slate-600">Clics (actual / anterior)</dt><dd class="font-medium">900 / 1.000; variación −10,0 %</dd></div>
+                <div><dt class="text-slate-600">Conversion Rate (actual / anterior)</dt><dd class="font-medium">2,0 % / 2,0 %; variación 0,0 %</dd></div>
+                <div><dt class="text-slate-600">Engagement Rate (actual / anterior)</dt><dd class="font-medium">4,8 % / 4,8 %; variación 0,0 %</dd></div>
+              </dl>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
